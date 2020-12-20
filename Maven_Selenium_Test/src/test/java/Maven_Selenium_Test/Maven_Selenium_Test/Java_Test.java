@@ -24,7 +24,7 @@ public class Java_Test {
         JavascriptExecutor js = (JavascriptExecutor)driver;  
         js.executeScript("scrollBy(0, 5000)");   
           
-         // Click on the Search button. Code Update #7  
+         // Click on the Search button. Code Update #8  
         driver.findElement(By.linkText("Core Java")).click();   
         
 	}
